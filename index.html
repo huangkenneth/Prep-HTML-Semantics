@@ -3,44 +3,112 @@
 <head>
 	<meta charset="UTF-8">
 	<title>DevKen</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+<div id="header">
 	<h1>Kenneth Huang - Web Developer</h1>
 	<ul>
-		<li><a href="#">Home</a></li>
-		<li><a href="#">About Me</a></li>
-		<li><a href="#">Blog</a></li>
-		<li><a href="#">Contact Me</a></li>
+		<li class="first"><a href="#">Home</a></li>
+		<li class="first"><a href="#">About Me</a></li>
+		<li class="first"><a href="#">Blog</a></li>
+		<li class="first"><a href="#">Contact Me</a></li>
 	</ul>
+</div>
+
+<div id="content1">
 	<h2>She is the Slayer.</h2>
-	<div id="content1"></div>
 		<p>...</p>
-		<img src="http://i.ebayimg.com/06/!B7VlQp!EWk~$(KGrHqQOKo4Ey+jC)80gBMz3EnC3fw~~_35.JPG?set_id=8800005007"><br>
+		<img src="http://i.ebayimg.com/06/!B7VlQp!EWk~$(KGrHqQOKo4Ey+jC)80gBMz3EnC3fw~~_35.JPG?set_id=8800005007" alt="Puss in Boots"><br>
 		<p>...</p>
-	<h2>Foose Ball...</h2>
-	<div id="content2"></div>
+</div>
+
+<div id="content2">
+	<h2>Foose Ball Tournament Rules</h2>
 		<p>...</p>
 		<table>
-		<tr>
-			<th>Team 1</th>
-			<th>Team 2</th>
-			<th>Winning Team</th>
-			<th>Final Score</th>
-		</tr>
-		<tr>
-			<td>Intergalactic Potato</td>
-			<td>Beastie Poise</td>
-			<td>Intergalactic Potatp</td>
-			<td>15 - 9</td>
-		</tr>
-		<tr>
-			<td></td>
-		</tr>
-		<tr>
-			<td></td>
-		</tr>
+			<tr>
+				<th>Team 1</th>
+				<th>Team 2</th>
+				<th>Winning Team</th>
+				<th>Final Score</th>
+			</tr>
+			<tr>
+				<td>Intergalactic Potato</td>
+				<td>Beastie Poise</td>
+				<td>Intergalactic Potato</td>
+				<td>15 - 9</td>
+			</tr>
+			<tr>
+				<td>EE DEE M&amp;Ms</td>
+				<td>...</td>
+				<td>...</td>
+				<td>...</td>
+			</tr>
+			<tr>
+				<td>...</td>
+				<td>...</td>
+				<td>...</td>
+				<td>...</td>
+			</tr>
+		</table>
+</div>
 
+<div id="content3">
+	<h2>To Do List</h2>
+		<p>February 13th, 2014</p>
+		<ul>
+			<li>Go to the grocery store for:</li>
+				<ol>
+					<li>Milke</li>
+					<li>Frozen Pizza</li>
+					<li>Tortilla Chips</li>
+					<li>Yogurt</li>
+				</ol>
+			<li>Bake butter mochi</li>
+			<li></li>
+			<li></li>
+			<li></li>
+				<ul>
+					<li></li>
+					<li></li>
+				</ul>
+		</ul>
+</div>
 
+<div id="content4">
+	<h2>Contact Me</h2>
+		<p>Enter your message below...</p>
+
+		<form id="feedback">
+			Your Email: <input type = "text" name="email"><br>
+			Message: <input type = "text" name="message" style="width:150px; height:150px">
+			<!-- <textarea name="message" rows="10" cols="30">
+			The cat was playing in the garden.
+			</textarea> -->
+		</form>
+
+		<p>Curious are you from Hawaii?</p>
+
+		<form id="origin">
+			<input type = "radio" value="Yes">Yes<br>
+			<input type = "radio" value="No">No<br>
+			<input type = "checkbox" value="Haole">First time to the island<br>
+		</form>
+
+		<select>
+			<option value="">Yesterday</option>
+			<option value="">Today</option>
+			<option value="">Tomorrow</option>
+			<option value="">Forever</option>
+		</select>
+
+		<form action="website">
+			<input type="submit" name="submit"><br>
+		</form>
+</div>
+
+	<h4>by Kenneth Huang</h4>
 
 </body>
 </html>
