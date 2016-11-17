@@ -2,10 +2,84 @@
 	text-align: center;
 }
 
+/*body{
+	background-image: url(https://content.trafalgar.com/~/media/images/home/destinations/north-america/hawaii/2015-licensed-images/usa-tours-hawaii-oahu-honolulu-waikiki-beach-l-al.jpg?mw=1200&);
+	-webkit-background-size: 100% 100%;
+ 	-o-background-size: 100% 100%;
+	background-repeat: no-repeat;
+ 	width: 100%;
+ 	height: 50%;
+ }*/
+
+/*ul{
+	list-style-type: none;
+
+}*/
+
+a{
+	color:blue;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+a:active{
+	color:red;
+}
+
+h1, h2, h3, h4{
+	font-family: 'Shadows Into Light', cursive;	
+}
+
+.first{
+	display: inline;
+	color: black;
+	background-color: yellow;
+	margin: 5px;
+	padding: 10px;
+
+}
+
+#content1{
+	border:1px solid black;
+}
+#main1{
+	border:1px solid black;
+}
+
+#content2{
+	border:1px solid black;
+}
+
+#content3{
+	border:1px solid black;
+}
+
+#content4{
+	border:1px solid black;
+}
+
+
+img{
+	display: block;
+	margin: auto;
+	height: 236px;
+	width: 300px;
+	/*background-attachment: fixed;
+	background-position: right;*/
+}
 
 table {
     border-collapse: collapse;
+    width: 100%;
 }
 table, th, td{
 	border: 1px solid black;
+}
+th{
+	height: 50px;
+	background: rgb(197,232,245);
+}
+td{
+	height: 35px;
 }
